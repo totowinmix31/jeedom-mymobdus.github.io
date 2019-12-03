@@ -19,3 +19,7 @@ Changelog MyModbus
 
 - Mise en service du changelog .
 - Mise en place documentation non à jour . 
+
+# 03/12/2019 V1.0.4
+
+-Relance du demon en cas d'ajout ou supression d'un objet 

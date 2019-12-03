@@ -1,5 +1,5 @@
 
-Changelog MyModbus 
+# Changelog plugin MyModbus 
 
 
 # 30/11/2019  V1.0
@@ -22,4 +22,4 @@ Changelog MyModbus
 
 # 03/12/2019 V1.0.4
 
--Relance du demon en cas d'ajout ou supression d'un objet 
+- Relance du demon en cas d'ajout ou supression d'un objet 

@@ -1,7 +1,4 @@
 
-# Changelog plugin MyModbus 
-
-
 # 30/11/2019  V1.0
 
 - Ajout de la commande manuel d'installation en attendant les dépendances

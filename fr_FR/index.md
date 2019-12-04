@@ -1,7 +1,7 @@
 Description 
 ===
-MyModbus
-Plugin servant à communiquer via le protcole mModbus via plusieurs type de Liaison . 
+MyModbus.
+Plugin servant à communiquer en protcole Modbus via plusieurs type de Liaison . 
 
 - Liaison modbus Ethernet 
 - Liaison Série Mode RTU ( A venir ) 

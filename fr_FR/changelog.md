@@ -20,3 +20,7 @@
 # 03/12/2019 V1.0.4
 
 - Relance du demon en cas d'ajout ou supression d'un objet 
+
+# 05/12/2019 V1.0.5
+
+- Ajout des options pour les futur modes de connection 

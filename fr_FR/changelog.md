@@ -1,4 +1,4 @@
-# 10/12/2019 V1.0.7B
+# 10/12/2019 V1.0.7b
 
 - mise en place de Framer pour la biblio rtu over tcp 
 

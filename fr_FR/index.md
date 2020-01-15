@@ -11,8 +11,9 @@ Plugin servant à communiquer en protcole Modbus via plusieurs type de Liaison .
 
 Création d'un équipement  .
 ===
+Configuration du plugin
+=======================
 
-1) Configuration du plugin
 
 Après téléchargement du plugin, il vous suffit juste d’activer et d’installer les dépendances Mymodbus (clic sur le bouton Installer/Mettre à jour)
 

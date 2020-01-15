@@ -42,7 +42,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
     Note
 
     Les autres options :
-![blea icon](../images/blea_icon.png)
+![image101](../images/blea_icon.png)
 
     Notes:
 ![mymodbus](../images/mymodbus_exemple_crouzet_cmd.png)

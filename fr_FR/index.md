@@ -46,7 +46,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
 
     Notes:
 	
-![Config1_Crouzet](../images/mymodbus_exemple_crouzet_cmd.png)
+
 
 En-dessous vous retrouvez la liste des commandes :
 
@@ -57,6 +57,8 @@ En-dessous vous retrouvez la liste des commandes :
     Tester : permet de tester la commande
 
     Note
+	
+![Config1_Crouzet](../images/mymodbus_exemple_crouzet_cmd.png)
 	
 -   Une fois cliqué sur sauvegarder le démon va démarer automatique etc ;....  : 	
 

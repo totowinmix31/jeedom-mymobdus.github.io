@@ -1,3 +1,59 @@
+Description
+===========
+- **Jeedouino v1.06**  
+
+   Ce plugin vous permet de contrôler de différentes manières les pins entrées/sorties des cartes suivantes :
+
+   * Arduinos (différents modèles) branchés en USB sur *Raspberry PI*.
+   * Arduinos (différents modèles) branchés avec un shield Ethernet (W5100, W5500, ENC28J60) sur votre réseau.
+   * les ESP8266 (wifi) ex:  
+     NodeMCU , Wemos, etc.  
+     SONOFF 4CH & POW, ELECTRODRAGON 2CH.  
+   * les GPIO du *Raspberry PI*.
+   * les cartes PiFace (piRack) sur *Raspberry PI*.
+   * les cartes IO PiPlus et les MCP23017 sur *Raspberry PI*.
+
+
+   Il fonctionne en local (sur Jeedom) ou en déporté (seul : option JeedouinoExt) sur votre réseau.
+
+   Il est compatible avec le fonctionnement du plugin Jeedom-Link de Jeedom.
+
+Installation et mise à jour du plugin
+====================================
+
+> **[IMPORTANT]**
+>
+> Une installation ou une mise à jour du plugin, sur un système un peu ancien, peut prendre du temps pour la mise à jour de celui-ci.  
+> Un reboot peut même être nécéssaire dans certains cas.  
+> Il suffit de suivre les logs des dépendances pour surveiller la progression.   
+
+Installation du plugin
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Description 
 ===
 MyModbus.

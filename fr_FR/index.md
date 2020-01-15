@@ -44,7 +44,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
     Les autres options :
 
     Notes:
-![mymodbus icon](../images/mymodbus_exemple_crouzet_cmd.png)
+![mymodbus](../images/mymodbus_exemple_crouzet_cmd.png)
 
 En-dessous vous retrouvez la liste des commandes :
 

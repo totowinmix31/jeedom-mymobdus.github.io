@@ -44,7 +44,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
     Les autres options :
 
     Notes:
-
+image:../images/mymodbus_exemple_crouzet_cmd.png[]
 En-dessous vous retrouvez la liste des commandes :
 
     Nom : le nom affiché sur le dashboard,

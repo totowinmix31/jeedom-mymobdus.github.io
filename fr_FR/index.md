@@ -44,7 +44,7 @@ Vous retrouvez ici toute la configuration de votre équipement :
     Les autres options :
 
     Notes:
-![01](../images/mymodbus_exemple_crouzet_cmd.png)
+![jeedom-mymobdus](../images/mymodbus_exemple_crouzet_cmd.png)
 
 En-dessous vous retrouvez la liste des commandes :
 

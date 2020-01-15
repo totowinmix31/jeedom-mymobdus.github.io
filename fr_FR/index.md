@@ -42,10 +42,9 @@ Vous retrouvez ici toute la configuration de votre équipement :
     Note
 
     Les autres options :
-![image101](../images/blea_icon.png)
 
     Notes:
-![mymodbus](../images/mymodbus_exemple_crouzet_cmd.png)
+![01](../images/mymodbus_exemple_crouzet_cmd.png)
 
 En-dessous vous retrouvez la liste des commandes :
 

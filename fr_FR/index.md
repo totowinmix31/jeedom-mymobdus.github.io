@@ -1,32 +1,32 @@
-Description 
+Presentation 
 ===
-MyModbus.
-Plugin servant à communiquer en protcole Modbus via plusieurs type de Liaison . 
+
+Le Plugin MyModBus sert à communiquer en protocole Modbus via plusieurs type de Liaison . 
 
 - Liaison modbus Ethernet 
 - Liaison Série Mode RTU ( A venir ) 
 
+Il est compatible avec plusieurs type d'automates (Crouzet, IPX...) 
 
-
-
-Création d'un équipement  .
+Configuration du plugin
 ===
-1)Configuration du plugin
 
 
+Après le téléchargement du plugin, il vous suffit juste d’activer et d’installer les dépendances Mymodbus (clic sur le bouton Installer/Mettre à jour)
 
-Après téléchargement du plugin, il vous suffit juste d’activer et d’installer les dépendances Mymodbus (clic sur le bouton Installer/Mettre à jour)
+![Config1_Crouzet](../images/mymodbus_plugins_OK.png)
 
 
-
+Création d'un équipement
+===
 
 Avant de démarrer le demon , il faut commencer par créer un équipement modbus  :
 
--  Photos etc.... 
+![Config1_Crouzet](../images/mymodbus_ajout-equipement.png)
 
 
-
-2) Configuration des équipements
+Configuration des équipements 
+===
 
 Vous retrouvez ici toute la configuration de votre équipement :
 
@@ -40,13 +40,6 @@ Vous retrouvez ici toute la configuration de votre équipement :
 
     Visible : rend votre équipement visible sur le dashboard,
 
-    Note
-
-    Les autres options :
-
-    Notes:
-	
-
 
 En-dessous vous retrouvez la liste des commandes :
 
@@ -55,11 +48,46 @@ En-dessous vous retrouvez la liste des commandes :
     Afficher : permet d’afficher la donnée sur le dashboard,
 
     Tester : permet de tester la commande
-
-    Note
 	
-![Config1_Crouzet](../images/mymodbus_exemple_crouzet_cmd.png)
 	
--   Une fois cliqué sur sauvegarder le démon va démarer automatique etc ;....  : 	
 
-    Jeedom recherche toutes les jours à 00h30 s'il y a un automate à mettre à l'heure , si oui il le fait .
+Exemple de configuration pour un automate Crouzet  
+===
+
+![Config1_Crouzet](../images/mymodbus_exemple_crouzet_eq.png)
+
+
+-  Une fois la configuration renseigner on passe à l'ajout des commandes (infos)
+
+![Config1_Crouzet](../images/mymodbus_exemple_crouzet_in.png)
+
+
+-   Puis les commandes actions : 
+
+![Config1_Crouzet](../images/mymodbus_exemple_crouzet_in.png)
+
+
+	
+-   Une fois la configuration terminée cliqué sur sauvegarder le démon démarrera automatiquement etc ;....  : 	
+
+Petite actions très utile :
+
+Jeedom recherche toutes les jours à 00h30 s'il y a un automate à mettre à l'heure , si oui il le fait .
+
+	
+Création d'un virtuel
+===
+
+Pour se faire vous devez obligatoirement avoir installé le plugin "virtuel" 
+
+![Config1_Crouzet](../images/mymodbus_creation_virtuel.png)
+
+Il faut maintenant créer les commandes du virtuel pour cela on s'appuie sur les commandes crées précédemment : 
+
+" #[Cuisine][Cuisine][MODBUS_ETAT_ECL_CUISINE]# &2 "
+
+![Config1_Crouzet](../images/mymodbus_creation_virtuel_cmd_info.png)
+
+" #[Cuisine][Cuisine][MODBUS_BP_ECL_CUISINE]# "
+
+![Config1_Crouzet](../images/mymodbus_creation_virtuel_cmd.png)
